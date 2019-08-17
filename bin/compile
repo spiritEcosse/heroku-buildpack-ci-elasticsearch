@@ -45,6 +45,7 @@ else
 fi
 
 cat <<EOF >> $PROFILE_PATH
+export JAVA_HOME=/app/.jdk
 export PATH=/app/.heroku/vendor/elasticsearch/bin:\$PATH
 export ELASTICSEARCH_URL=localhost:9200
 
